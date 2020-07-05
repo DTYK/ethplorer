@@ -1,11 +1,11 @@
 Package: ethplorer
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Ethplorer (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: David Tan Yong Kwang
+Maintainer: David Tan Yong Kwang <david.tan.yk@gmail.com>
+Description: Ethplorer allows you to query the Ethereum Blockchain through the Ethplorer API
+Imports: jsonlite, httr
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
