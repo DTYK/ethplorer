@@ -2,7 +2,7 @@
 
 ## About
 
-ethplorer is R package that is used to query the Ethereum blockchain use the Ethplorer API. This package is not affiliated with Ethplorer.io. API calls have been limited to 0.25 seconds per call to prevent overloading Ethplorer's server.
+ethplorer is R package that is used to query the Ethereum blockchain using the Ethplorer API. This package is not affiliated with Ethplorer.io. API calls have been limited to 0.25 seconds per call to prevent overloading Ethplorer's server.
 
 ## Installation
 
@@ -30,3 +30,5 @@ The `getTopTokenHolders` function queries the top holders of a given token and r
 9  0xf977814e90da44bfa03b6295a0616a897441acec    1.000000e+25          1.00
 10 0x3dfd23a6c5e8bbcfc9581d2e864a68feb6a076d3    7.699281e+24          0.77
 ```
+## Author
+David Tan
