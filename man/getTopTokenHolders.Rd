@@ -9,12 +9,11 @@ getTopTokenHolders(address, limit = 10)
 \arguments{
 \item{address}{Token Contract Address}
 
-\item{limit}{Maximum number of token holders}
+\item{limit}{Maximum number of token holders (1 - 100)}
 }
 \value{
 Data frame containing address of token holders, percentage of ownership of tokens
-getTopTokenHolders()
 }
 \description{
-This returns the top token holders of a token
+Returns the top token holders of a token as a data frame
 }

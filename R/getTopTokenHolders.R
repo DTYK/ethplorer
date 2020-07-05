@@ -1,11 +1,10 @@
 #' Querying the top token holders of a token
 #'
-#' This returns the top token holders of a token
+#' Returns the top token holders of a token as a data frame
 #'
 #' @param address Token Contract Address
-#' @param limit Maximum number of token holders
+#' @param limit Maximum number of token holders (1 - 100)
 #' @return Data frame containing address of token holders, percentage of ownership of tokens
-#' getTopTokenHolders()
 
 getTopTokenHolders <- function(address, limit = 10) {
 
